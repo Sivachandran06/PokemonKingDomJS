@@ -1,0 +1,108 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 20px 15px;
+    margin: 16px;
+    border-radius: 5px;
+  
+    width: 150px;
+    /* height: 100px; */
+  
+    transition: transform 0.2s;
+  }
+  
+  .card-container:hover {
+    z-index: 100000;
+    transform: scale(1.2);
+  }
+  
+  .grass {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #22e03c 100%);
+  }
+  
+  .fire {
+    background-image: linear-gradient(120deg, #f9d14f 0%, #fd7955 100%);
+  }
+  
+  .water {
+    background-image: linear-gradient(120deg, #63edf7 0%, #1a78fc 100%);
+  }
+  
+  .bug {
+    background-image: linear-gradient(-225deg, #ecb164 0%, #e0a552 100%);
+  }
+  
+  .poison {
+    background-image: linear-gradient(to top, #e477af 0%, #78abf2 100%);
+  }
+  
+  .electric {
+    background-image: linear-gradient(to right, #fb5d31 0%, #f7d324 100%);
+  }
+  
+  .ground {
+    background-image: linear-gradient(315deg, #772f1a 0%, #e9af75 74%);
+  }
+  
+  .normal {
+    background-image: linear-gradient(120deg, #5dfbcc 0%, #fab1eb 100%);
+  }
+  
+  .fairy {
+    background-image: linear-gradient(
+      to top,
+      #ff9a9e 0%,
+      #fecfef 99%,
+      #fecfef 100%
+    );
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .number {
+    /* width: 25px;
+    height: 25px; */
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 6px 10px;
+    margin-bottom: 2px;
+  }
+  
+  .knowmore {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 8px;
+  
+    cursor: pointer;
+  }
+  
+  /* DO NOT USE THIS  */
+  
+  /* TAILWIND */
+  
+  @media screen and (max-width: 400px) {
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      padding: 20px 15px;
+      margin: 16px;
+      border-radius: 5px;
+  
+      width: 70vw;
+      /* height: 100px; */
+  
+      transition: transform 0.2s;
+    }
+  }
